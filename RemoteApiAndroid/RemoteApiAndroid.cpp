@@ -680,7 +680,7 @@ extern "C" {
 		for (int i = 0;; i++)
 		{
 			Module64 moduleArray[] = {
-				{ STRWITHSIZE("client.dll"), &ClientModuleCallback }
+				{ STRWITHSIZE("client_panorama.dll"), &ClientModuleCallback }
 			};
 
 			if (ModuleScan64(ARRAYWITHCOUNT(moduleArray), /*LIST_MODULES_32BIT*/1))
